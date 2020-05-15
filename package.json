@@ -1,0 +1,17 @@
+{
+  "name": "arrests-app",
+  "version": "1.0.0",
+  "description": "An Interactive Arrests cli",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Armen Minassian",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "nflarrests": "file:../nflarrests",
+    "superagent": "^4.1.0",
+    "yargs": "^13.2.2"
+  }
+}
